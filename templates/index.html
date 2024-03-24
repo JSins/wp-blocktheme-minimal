@@ -1,6 +1,6 @@
 <!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main"} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
 
   <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
@@ -12,12 +12,14 @@
     "
   >
 
-    <!-- wp:post-title {"level":1} /-->
+    <!-- wp:heading {"level":1} -->
+    <h1 class="wp-block-heading">Posts</h1>
+    <!-- /wp:heading -->
 
   </div>
   <!-- /wp:group -->
 
-  <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+  <!-- wp:pattern {"slug":"bts/posts-3-col"} /-->
   
 </main>
 <!-- /wp:group -->
